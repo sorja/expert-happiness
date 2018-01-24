@@ -7,3 +7,6 @@ _University of Helsinki course "FULLSTACK-WEBSOVELLUSKEHITYS" (TKT21009)._
 * Node
 * Express
 
+## Stages
+* [0](0/)
+* [1](1/)
