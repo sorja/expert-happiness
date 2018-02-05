@@ -23,12 +23,6 @@ class App extends React.Component {
     this.populate()
   }
 
-  componentWillUpdate(nextProps, nextState) {
-    if (!nextState.persons[nextState.persons.length - 1].id) {
-      this.populate()
-    }
-  }
-
   populate = () => {
     _persons.getAll().then(v => {
       this.setState({ persons: v.data })
@@ -109,7 +103,7 @@ class App extends React.Component {
         e.name && e.name.toLowerCase().indexOf(this.state.query.toLowerCase()) >= 0
     })
 
-    const _ = +new Date
+    const _ = +new Date()
 
     return (
       <div>
