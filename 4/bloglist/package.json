@@ -1,0 +1,25 @@
+{
+  "name": "bloglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "watch": "NODE_ENV=development nodemon index.js",
+    "test": "NODE_ENV=test jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jest": "^22.2.2",
+    "mongoose": "^5.0.4",
+    "supertest": "^3.0.0"
+  }
+}
