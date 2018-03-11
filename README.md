@@ -14,5 +14,4 @@ _University of Helsinki course "FULLSTACK-WEBSOVELLUSKEHITYS" (TKT21009)._
 * [3](3/)
 * [4](4/)
 * [5](5/)
-
-
+* [6](6/)
